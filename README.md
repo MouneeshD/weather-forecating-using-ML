@@ -13,3 +13,21 @@ Technologies Used
   4.pandas, NumPy 
   
   5.HTML, CSS
+
+For running this project use this commands after setting up the files 
+
+1.pip install -r requirements.txt
+
+2.python train_model.py
+
+3.python app.py
+
+Ater running the above command the localhost link will be generated , by clicking the generated link and providing the 
+
+1.humidity level - range 0 to 1 (min = 0 , max = 1, ex: 0.05), 
+
+2.wind speed - range 0 to 150 (min = 0 , max = 150) , 
+
+3.pressure - range 870 to 1085 (min = 870 , max = 1085)
+
+as the input then click predict temperature . the predicted temperature will be given as the output.
